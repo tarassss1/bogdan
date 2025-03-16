@@ -1,0 +1,154 @@
+body {
+    background: linear-gradient(135deg, #2c2c2c, #121212);
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Логотип */
+.logo {
+    height: auto;
+    width: 20%;
+    margin-left: 5px;
+}
+
+/* Заголовковий текст */
+.text {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5%;
+    color: #ffffff;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Шапка */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #111;
+}
+
+nav {
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #f2f1f1;
+    font-size: 15px;
+}
+
+/* Кнопки */
+.minecraft-button {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #7cbb41;
+    color: #030303;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+    display: inline-block;
+}
+
+.minecraft-button:hover {
+    background-color: #6e9f3b;
+    transform: scale(1.05);
+}
+
+.minecraft-button:active {
+    transform: scale(0.98);
+}
+
+/* Зображення */
+.film {
+    width: 100%;
+    margin-top: 0.5%;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.small-image {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.small-image:hover {
+    transform: scale(1.1);
+}
+
+/* Гра */
+.game {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    color: #000000;
+}
+
+.person {
+    width: 22%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.person img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Футер */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+}
+
+.now { 
+    width: 50px;
+    height: auto;
+    margin: 10px;
+}
+
+/* Виправлення позиціонування кнопки "Дивитися фільм" */
+#b {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+/* Minecraft Box */
+.minecraft-box {
+    width: 400px;
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    margin: auto;
+}
